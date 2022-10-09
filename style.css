@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
 
 * {
     box-sizing: border-box;
@@ -14,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 header {
@@ -59,6 +59,12 @@ a {
     color: inherit;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -102,3 +108,73 @@ a {
     color: #F9FAF8;
 }
 
+.random-quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    padding: 100px 200px;
+}
+
+.random-quote p em {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quotator {
+    align-self: end;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 200px 80px 200px;
+}
+
+.random-information .random-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.random-information > p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.random-items .item {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.random-signup {
+    margin: 100px 0;
+    padding: 50px 80px;
+    display: flex;
+    align-items: end;
+    background: #3882F6;
+    border-radius: 15px;
+    color: #E5E7EB;
+    gap: 100px;
+}
+
+.random-signup > 
+
+.random-signup button {
+    border: 2px solid white;
+}
